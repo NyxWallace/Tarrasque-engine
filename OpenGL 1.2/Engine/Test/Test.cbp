@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Rubik" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="../Release/Rubik" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../dependencies/glm/include" />
+					<Add directory="../dependencies/freeImage/include" />
+					<Add directory="../dependencies/freeglut/include" />
+				</Compiler>
+				<Linker>
+					<Add directory="../Release" />
+				</Linker>
+			</Target>
+			<Target title="Debug">
+				<Option output="../Debug/Rubik" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add directory="../dependencies/assimp/include" />
+					<Add directory="../dependencies/glm/include" />
+					<Add directory="../dependencies/freeImage/include" />
+					<Add directory="../dependencies/freeglut/include" />
+				</Compiler>
+				<Linker>
+					<Add directory="../Debug" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add directory="../Tarrasque_engine" />
+		</Compiler>
+		<Linker>
+			<Add option="-Wl,-R./" />
+			<Add library="Tarrasque_engine" />
+		</Linker>
+		<Unit filename="RubikCubeMaker.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
