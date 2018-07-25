@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2016-03-18T11:00:07Z</created><keywords></keywords><modified>2016-03-18T11:00:07Z</modified><revision></revision><subject></subject><title></title><unit meter="0.025400" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_materials>
+    <material id="_02 - Default" name="_02 - Default">
+      <instance_effect url="#_02 - Default-fx"/>
+    </material>
+    <material id="_01 - Default" name="_01 - Default">
+      <instance_effect url="#_01 - Default-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="_02 - Default-fx" name="_02 - Default">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.984314  0.988235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.984314  0.988235 0.588235 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.900000  0.900000 0.900000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="_01 - Default-fx" name="_01 - Default">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.854902  0.509804 0.058824 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.854902  0.509804 0.058824 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.900000  0.900000 0.900000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Plane001-lib" name="Plane001Mesh">
+      <mesh>
+        <source id="Plane001-POSITION">
+          <float_array id="Plane001-POSITION-array" count="75">
+-50.000000 -50.000000 0.000000
+-25.000000 -50.000000 0.000000
+0.000000 -50.000000 0.000000
+25.000000 -50.000000 0.000000
+50.000000 -50.000000 0.000000
+-50.000000 -25.000000 0.000000
+-25.000000 -25.000000 0.000000
+0.000000 -25.000000 0.000000
+25.000000 -25.000000 0.000000
+50.000000 -25.000000 0.000000
+-50.000000 0.000000 0.000000
+-25.000000 0.000000 0.000000
+0.000000 0.000000 0.000000
+25.000000 0.000000 0.000000
+50.000000 0.000000 0.000000
+-50.000000 25.000000 0.000000
+-25.000000 25.000000 0.000000
+0.000000 25.000000 0.000000
+25.000000 25.000000 0.000000
+50.000000 25.000000 0.000000
+-50.000000 50.000000 0.000000
+-25.000000 50.000000 0.000000
+0.000000 50.000000 0.000000
+25.000000 50.000000 0.000000
+50.000000 50.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Plane001-POSITION-array" count="25" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane001-Normal0">
+          <float_array id="Plane001-Normal0-array" count="288">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Plane001-Normal0-array" count="96" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane001-UV0">
+          <float_array id="Plane001-UV0-array" count="70">
+0.000000 0.000000
+0.250000 0.000000
+0.500000 0.000000
+0.750000 0.000000
+1.000000 0.000000
+0.000000 0.000000
+0.250000 0.000000
+0.500000 0.000000
+0.750000 0.000000
+1.000000 0.000000
+0.000000 0.000000
+0.250000 0.000000
+0.500000 0.000000
+0.750000 0.000000
+1.000000 0.000000
+0.000000 0.250000
+0.250000 0.250000
+0.500000 0.250000
+0.750000 0.250000
+1.000000 0.250000
+0.000000 0.500000
+0.250000 0.500000
+0.500000 0.500000
+0.750000 0.500000
+1.000000 0.500000
+0.000000 0.750000
+0.250000 0.750000
+0.500000 0.750000
+0.750000 0.750000
+1.000000 0.750000
+0.000000 1.000000
+0.250000 1.000000
+0.500000 1.000000
+0.750000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Plane001-UV0-array" count="35" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane001-VERTEX">
+          <input semantic="POSITION" source="#Plane001-POSITION"/>
+        </vertices>
+        <triangles count="32" material="_02 - Default"><input semantic="VERTEX" offset="0" source="#Plane001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Plane001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Plane001-UV0"/><p> 5 0 15 0 1 10 6 2 16 1 3 11 6 4 16 0 5 10 6 6 16 1 7 11 7 8 17 2 9 12 7 10 17 1 11 11 7 12 17 2 13 12 8 14 18 3 15 13 8 16 18 2 17 12 8 18 18 3 19 13 9 20 19 4 21 14 9 22 19 3 23 13 10 24 20 5 25 15 11 26 21 6 27 16 11 28 21 5 29 15 11 30 21 6 31 16 12 32 22 7 33 17 12 34 22 6 35 16 12 36 22 7 37 17 13 38 23 8 39 18 13 40 23 7 41 17 13 42 23 8 43 18 14 44 24 9 45 19 14 46 24 8 47 18 15 48 25 10 49 20 16 50 26 11 51 21 16 52 26 10 53 20 16 54 26 11 55 21 17 56 27 12 57 22 17 58 27 11 59 21 17 60 27 12 61 22 18 62 28 13 63 23 18 64 28 12 65 22 18 66 28 13 67 23 19 68 29 14 69 24 19 70 29 13 71 23 20 72 30 15 73 25 21 74 31 16 75 26 21 76 31 15 77 25 21 78 31 16 79 26 22 80 32 17 81 27 22 82 32 16 83 26 22 84 32 17 85 27 23 86 33 18 87 28 23 88 33 17 89 27 23 90 33 18 91 28 24 92 34 19 93 29 24 94 34 18 95 28</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Pyramid001-lib" name="Pyramid001Mesh">
+      <mesh>
+        <source id="Pyramid001-POSITION">
+          <float_array id="Pyramid001-POSITION-array" count="18">
+0.000000 0.000000 25.000000
+-15.000000 -15.000000 0.000000
+15.000000 -15.000000 0.000000
+15.000000 15.000000 0.000000
+-15.000000 15.000000 0.000000
+0.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Pyramid001-POSITION-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pyramid001-Normal0">
+          <float_array id="Pyramid001-Normal0-array" count="72">
+0.000000 -0.857493 0.514496
+0.000000 -0.857493 0.514496
+0.000000 -0.857493 0.514496
+0.857493 0.000000 0.514496
+0.857493 0.000000 0.514496
+0.857493 0.000000 0.514496
+0.000000 0.857493 0.514496
+0.000000 0.857493 0.514496
+0.000000 0.857493 0.514496
+-0.857493 0.000000 0.514496
+-0.857493 0.000000 0.514496
+-0.857493 0.000000 0.514496
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Pyramid001-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pyramid001-UV0">
+          <float_array id="Pyramid001-UV0-array" count="22">
+0.500000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+1.000000 0.000000
+0.000000 0.000000
+0.500000 0.500000
+0.500000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Pyramid001-UV0-array" count="11" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Pyramid001-VERTEX">
+          <input semantic="POSITION" source="#Pyramid001-POSITION"/>
+        </vertices>
+        <triangles count="8" material="_01 - Default"><input semantic="VERTEX" offset="0" source="#Pyramid001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Pyramid001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Pyramid001-UV0"/><p> 0 0 0 1 1 1 2 2 2 0 3 10 2 4 3 3 5 4 0 6 0 3 7 1 4 8 2 0 9 10 4 10 3 1 11 4 1 12 5 5 13 9 2 14 6 2 15 6 5 16 9 3 17 7 3 18 7 5 19 9 4 20 8 4 21 8 5 22 9 1 23 5</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Pyramid002-lib" name="Pyramid002Mesh">
+      <mesh>
+        <source id="Pyramid002-POSITION">
+          <float_array id="Pyramid002-POSITION-array" count="18">
+0.000000 0.000000 25.000000
+-15.000000 -15.000000 0.000000
+15.000000 -15.000000 0.000000
+15.000000 15.000000 0.000000
+-15.000000 15.000000 0.000000
+0.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Pyramid002-POSITION-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pyramid002-Normal0">
+          <float_array id="Pyramid002-Normal0-array" count="72">
+0.000000 -0.857493 0.514496
+0.000000 -0.857493 0.514496
+0.000000 -0.857493 0.514496
+0.857493 0.000000 0.514496
+0.857493 0.000000 0.514496
+0.857493 0.000000 0.514496
+0.000000 0.857493 0.514496
+0.000000 0.857493 0.514496
+0.000000 0.857493 0.514496
+-0.857493 0.000000 0.514496
+-0.857493 0.000000 0.514496
+-0.857493 0.000000 0.514496
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Pyramid002-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pyramid002-UV0">
+          <float_array id="Pyramid002-UV0-array" count="22">
+0.500000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+1.000000 0.000000
+0.000000 0.000000
+0.500000 0.500000
+0.500000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Pyramid002-UV0-array" count="11" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Pyramid002-VERTEX">
+          <input semantic="POSITION" source="#Pyramid002-POSITION"/>
+        </vertices>
+        <triangles count="8" material="_01 - Default"><input semantic="VERTEX" offset="0" source="#Pyramid002-VERTEX"/><input semantic="NORMAL" offset="1" source="#Pyramid002-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Pyramid002-UV0"/><p> 0 0 0 1 1 1 2 2 2 0 3 10 2 4 3 3 5 4 0 6 0 3 7 1 4 8 2 0 9 10 4 10 3 1 11 4 1 12 5 5 13 9 2 14 6 2 15 6 5 16 9 3 17 7 3 18 7 5 19 9 4 20 8 4 21 8 5 22 9 1 23 5</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="_ncl1_3" name="_ncl1_3">
+      <technique_common>
+        <point>
+          <color sid="color">1.000000 1.000000 1.000000</color>
+        </point>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">1.000000</intensity>
+      </technique>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="Piramids" name="Piramids">
+      <node name="Plane001" id="Plane001" sid="Plane001"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Plane001-lib"><bind_material><technique_common><instance_material symbol="_02 - Default" target="#_02 - Default"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Pyramid001" id="Pyramid001" sid="Pyramid001"><matrix sid="matrix">1.000000 0.000000 0.000000 20.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 -10.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Pyramid001-lib"><bind_material><technique_common><instance_material symbol="_01 - Default" target="#_01 - Default"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Pyramid002" id="Pyramid002" sid="Pyramid002"><matrix sid="matrix">1.000000 0.000000 0.000000 -15.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 5.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Pyramid002-lib"><bind_material><technique_common><instance_material symbol="_01 - Default" target="#_01 - Default"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Omni001" id="Omni001" sid="Omni001"><matrix sid="matrix">1.000000 0.000000 0.000000 25.000000 0.000000 1.000000 0.000000 30.000000 0.000000 0.000000 1.000000 20.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_3"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>3.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Piramids"></instance_visual_scene>
+  </scene>
+</COLLADA>

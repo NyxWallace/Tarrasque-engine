@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tarrasque_engine", "Tarrasque_engine\Tarrasque_engine.vcxproj", "{7E9CBC9F-7732-48E3-BDC0-3DAFF3FE259A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Egypt", "Egypt\Egypt.vcxproj", "{017FA4D1-29BF-415B-9C4D-15EBA18A500F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7E9CBC9F-7732-48E3-BDC0-3DAFF3FE259A} = {7E9CBC9F-7732-48E3-BDC0-3DAFF3FE259A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E9CBC9F-7732-48E3-BDC0-3DAFF3FE259A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7E9CBC9F-7732-48E3-BDC0-3DAFF3FE259A}.Debug|Win32.Build.0 = Debug|Win32
+		{7E9CBC9F-7732-48E3-BDC0-3DAFF3FE259A}.Release|Win32.ActiveCfg = Release|Win32
+		{7E9CBC9F-7732-48E3-BDC0-3DAFF3FE259A}.Release|Win32.Build.0 = Release|Win32
+		{017FA4D1-29BF-415B-9C4D-15EBA18A500F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{017FA4D1-29BF-415B-9C4D-15EBA18A500F}.Debug|Win32.Build.0 = Debug|Win32
+		{017FA4D1-29BF-415B-9C4D-15EBA18A500F}.Release|Win32.ActiveCfg = Release|Win32
+		{017FA4D1-29BF-415B-9C4D-15EBA18A500F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

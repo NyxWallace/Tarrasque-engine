@@ -1,0 +1,26 @@
+﻿Build started 29.04.2016 23:27:20.
+     1>Project "D:\DevProjects\Tarrasque Engine\Tarrasque_engine\Egypt\Egypt.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\LeapSDK\include /I..\dependencies\glew\include /I..\dependencies\assimp\include /I..\dependencies\glm\include /I..\dependencies\freeImage\include /I..\dependencies\freeglut\include /I..\Tarrasque_engine /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D FREEGLUT_STATIC /D FREEIMAGE_LIB /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4251 /analyze- /errorReport:prompt Ball.cpp Block.cpp EgyptViewMaker.cpp
+         EgyptViewMaker.cpp
+     1>d:\devprojects\tarrasque engine\tarrasque_engine\egypt\egyptviewmaker.cpp(183): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Ball.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         Block.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\DevProjects\Tarrasque Engine\Tarrasque_engine\Debug\Egypt.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\LeapSDK\lib\x86 /LIBPATH:..\dependencies\assimp\lib\Win32\Debug /LIBPATH:..\Debug /LIBPATH:..\dependencies\freeImage\lib\Win32\Debug /LIBPATH:..\dependencies\freeglut\lib\Win32\Debug Leap.lib assimp.lib Tarrasque_engine.lib FreeImageLibd.lib freeglut_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMTD.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\DevProjects\Tarrasque Engine\Tarrasque_engine\Debug\Egypt.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\DevProjects\Tarrasque Engine\Tarrasque_engine\Debug\Egypt.lib" /MACHINE:X86 /ignore:4099 Debug\Ball.obj
+         Debug\Block.obj
+         Debug\EgyptViewMaker.obj
+         Debug\LeapListener.obj
+         Egypt.vcxproj -> D:\DevProjects\Tarrasque Engine\Tarrasque_engine\Debug\Egypt.exe
+       PostBuildEvent:
+         xcopy /yr "..\LeapSDK\lib\x86\Leap.dll" "D:\DevProjects\Tarrasque Engine\Tarrasque_engine\Debug\"
+         :VCEnd
+         ..\LeapSDK\lib\x86\Leap.dll
+         1 File copiati
+     1>Done Building Project "D:\DevProjects\Tarrasque Engine\Tarrasque_engine\Egypt\Egypt.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.65
